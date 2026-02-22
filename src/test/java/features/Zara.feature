@@ -19,7 +19,7 @@ Feature: Testinium Test
     * "Sepete Ekle" elementine tıkla
     * "XL ürünü seç" elementine tıkla
     * "Sepet" elementine tıkla
-    * "epet Fiyat Bilgisi" elementinin değerinin "UrunFiyat" key değerini içerdiği kontrol edilir
+    * "Sepet Fiyat Bilgisi" elementinin değerinin "UrunFiyat" key değerini içerdiği kontrol edilir
     * "Sepet Ürün Bilgisi" elementinin değerinin "UrunBilgi" key değerini içerdiği kontrol edilir
     * "Sepet Ürün Sil" elementine tıkla
     * "Sepetiniz Boş" elementinin sayfada olduğunu kontrol et
