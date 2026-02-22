@@ -1,0 +1,81 @@
+{
+  "parent": "Common",
+  "elements": [
+    {
+      "elementName": "Menüyü Aç",
+      "locator": "//button[@data-qa-id='layout-desktop-open-menu-trigger']",
+      "locateUsing": "xpath"
+    },
+    {
+      "elementName": "Erkek",
+      "locator": "(//span[text()='ERKEK'])[1]",
+      "locateUsing": "xpath"
+    },
+    {
+      "elementName": "Tümünü Gör",
+      "locator": "//span[text()='TÜMÜNÜ GÖR']",
+      "locateUsing": "xpath"
+    },
+    {
+      "elementName": "Ürün Arama",
+      "locator": "//a[@data-qa-id='header-search-text-link']",
+      "locateUsing": "xpath"
+    },
+    {
+      "elementName": "Genel Arama",
+      "locator": "search-home-form-combo-input",
+      "locateUsing": "id"
+    },
+    {
+      "elementName": "Listedeki İlk Ürün",
+      "locator": "(//img[@data-qa-qualifier='media-image'])[1]",
+      "locateUsing": "xpath"
+    },
+    {
+      "elementName": "Ürün Fiyatı",
+      "locator": "//span[@class='money-amount__main']",
+      "locateUsing": "xpath"
+    },
+    {
+      "elementName": "Ürün Bilgisi",
+      "locator": "h1[data-qa-qualifier='product-detail-info-name']",
+      "locateUsing": "css"
+    },
+    {
+      "elementName": "Sepete Ekle",
+      "locator": "button[data-qa-action='add-to-cart']",
+      "locateUsing": "css"
+    },
+    {
+      "elementName": "XL ürünü seç",
+      "locator": "(//div[contains(text(),'XL')])[1]",
+      "locateUsing": "xpath"
+    },
+    {
+      "elementName": "Sepet",
+      "locator": "//span[text()='SEPET']",
+      "locateUsing": "xpath"
+    },
+    {
+      "elementName": "Sepet Ürün Bilgisi",
+      "locator": "a[class='shop-cart-item-header__description-link link']",
+      "locateUsing": "css"
+    },
+    {
+      "elementName": "Sepet Fiyat Bilgisi",
+      "locator": "div.shop-cart-item-pricing__container span.money-amount__main",
+      "locateUsing": "css"
+    },
+    {
+      "elementName": "Sepet Ürün Sil",
+      "locator": "//button[@data-qa-action='remove-order-item']",
+      "locateUsing": "xpath"
+    },
+    {
+      "elementName": "Sepetiniz Boş",
+      "locator": "//span[normalize-space()='SEPETİNİZ BOŞ']",
+      "locateUsing": "xpath"
+    }
+
+  ]
+}

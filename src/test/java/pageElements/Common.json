@@ -1,0 +1,11 @@
+{
+  "elements": [
+    {
+      "elementName": "Menüyü Aç",
+      "locator": "//button[@data-qa-id='layout-desktop-open-menu-trigger']",
+      "locateUsing": "xpath"
+    }
+  ]
+}
+
+
